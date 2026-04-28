@@ -2,7 +2,7 @@ name: build-zammad-image
 
 on:
   push:
-    branches: ["deploy"]   # change if your branch_name is different
+    branches: ["develop"]   # change if your branch_name is different
   workflow_dispatch:
 
 permissions:
